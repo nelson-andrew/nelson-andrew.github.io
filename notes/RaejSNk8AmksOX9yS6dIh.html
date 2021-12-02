@@ -183,6 +183,14 @@
 
         <h1 id="deploy"><a aria-hidden="true" class="anchor-heading" href="#deploy"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Deploy</h1>
 <p><a href="https://wiki.dendron.so/notes/1399b5d2-28fb-4077-aa5f-c8edbe52bc5d">deployment instructions</a></p>
+<p>To test locally build your site using the following command inside your workspace root.</p>
+<pre><code>dendron buildSite  --stage dev --serve
+</code></pre>
+<p>The site will then be available to test at localhost:8080  </p>
+<p>When you are ready to publish to github</p>
+<pre><code>dendron buildSite --stage prod
+</code></pre>
+<p>This will do a production build and copy site to \nelson-andrew.github.io local folder.  </p>
 <p><a href="https://markdown-it.github.io/">https://markdown-it.github.io/</a></p><span id="navId" data="RaejSNk8AmksOX9yS6dIh"></span>
 
                 
